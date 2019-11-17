@@ -30,3 +30,62 @@ h1 {
   margin: 0;
   font-weight: bold;
 }
+
+.grain1 {
+  width: 40px;
+  float: left;
+}
+
+.grain2 {
+  width: 40px;
+  float: right;
+}
+
+.gra {
+  padding: .5em 0;
+}
+
+.frame nav {
+  border-top: 1px solid #a63f38;
+  border-bottom: 1px solid #a63f38;
+  width: 100%;
+}
+
+.frame {
+  display: flex;
+}
+
+.frame ul {
+  margin: 0;
+  padding: 0;
+  justify-content: center;
+  display: flex;
+  list-style: none;
+  align-items: center;
+}
+
+.frame li {
+  width: 33.33%;
+}
+
+.frame li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.125em;
+  font-weight: bold;
+  display: block;
+  width: 100%;
+  padding: .5em 0;
+}
+
+.frame li a:hover {
+  background-color: #a63f38;
+}
+
+.a {
+  justify-content: flex-start;
+}
+
+.c {
+  justify-content: flex-end;
+}
